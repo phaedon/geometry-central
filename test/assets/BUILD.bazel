@@ -1,0 +1,9 @@
+filegroup(
+    name = "assets",
+    srcs = glob([
+        "*.obj",
+        "*.ply",
+        "*.stl",
+    ]),
+    visibility = ["//visibility:public"],
+)
